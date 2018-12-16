@@ -1,5 +1,7 @@
 <html>
     <head>
+      <title>Log-in to the Channels Forum</title>
+      <html lang="en">
     	<link href="https://fonts.googleapis.com/css?family=Bungee" <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
       <link rel="stylesheet" href="styles.css">
       <script src="scripts\scripts.js"></script>
@@ -15,16 +17,16 @@
     </div>
       </aside>
     <section>
-      <div class="row">
+      <div role="main" class="row">
           <div class="col-5 col-s-5">
       <h1> #Team Collaboration Portal</h1>
       <h2> Get Connected </h2>
       <h2> Collaborate. Do More. Make Things Fun.</h2>
 
       <form id="message-form" method="GET" action="channels-demo.html">
-        <input type="text" class="message-box" placeholder="username"></input>
-        <input type="password" class="message-box" placeholder="password"></input>
-        <input type="submit" id="user" value="Login"></input>
+        <input type="text" class="message-box" placeholder="username" title="Enter your username" aria-label="Client login username"></input>
+        <input type="password" class="message-box" placeholder="password" title="Enter your password" aria-label="Client login password"></input>
+        <input a href="channels-demo.html" type="submit" id="user" value="Login" title="Log-in to the application" aria-label="Application Login"></input>
       </form>
             </div>
               </div>
